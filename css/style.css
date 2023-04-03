@@ -1,3 +1,7 @@
+body{
+    font-family: Roboto;
+}
+
 .container{
     padding: 0 25%;
     font-size: small;
@@ -30,10 +34,82 @@ nav ul li:hover {
 
 }
 
-
-
 .clearFix {
     display: block;
     content: "";
     clear: both;
+}
+
+.showBox {
+    padding: 10px;
+    border: solid 1px red;
+}
+.cvContainer {
+    padding: 10px;
+    height: auto;
+}
+
+.cvTitle{
+    width: 100%;
+
+}
+
+.curriculum {
+    padding: 0 2%;
+    height: auto;
+}
+
+.curriculum > .leftCollumn {
+    float: left;
+    max-width: 27%;
+    color: white;
+    background-color: #52506b;
+}
+
+.curriculum > .righttCollumn {
+    float: left;
+    min-width: 66%;
+    max-width: 66%;
+    color: black;
+    background-color: #f5f5f5;
+}
+
+.basicColumns {
+    padding: 15px;
+}
+
+.basicColumns div > p {
+    padding: 0 10px;
+}
+
+.fullWidth {
+    min-width: 100%;
+}
+
+.imageRound {
+    margin: 20%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+}
+
+.divContentMain {
+    border-top: solid 2px white;
+    margin-top: 10px;
+}
+
+.divContentMain > h5 {
+    font-size: medium;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.cargoLaboral {
+    font-weight: bold;
+}
+
+.nameFull{
+    font-size: large;
+    font-weight: bold;
 }
